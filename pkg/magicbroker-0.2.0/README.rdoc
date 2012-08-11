@@ -1,0 +1,1 @@
+Ruby gem for subscribing, unsubscribing and sending events to the Magic Broker 2
