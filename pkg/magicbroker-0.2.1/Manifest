@@ -1,0 +1,5 @@
+Manifest
+README.md
+Rakefile
+lib/client/client.rb
+lib/magicbroker.rb
