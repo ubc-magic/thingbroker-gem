@@ -1,7 +1,7 @@
 require 'net/http'
 require 'uri'
 
-module Broker
+module Magicbroker
 
   class Client
       
@@ -29,7 +29,14 @@ module Broker
         Net::HTTP.get_print URI.parse(servlet)
         print servlet
       end
-    
+
+      def receive_events(t)
+	t.nil? ? t=1 : t=t	
+	print
+	servlet = 'http://'+@server+'/event?clientID='+@clientID+'&topic='+@topic+'&timeOut='+t.to_s()
+        Net::HTTP.get_print URI.parse(servlet)
+        print servlet
+      end
+
   end
-  
 end
