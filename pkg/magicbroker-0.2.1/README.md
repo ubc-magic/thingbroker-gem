@@ -10,7 +10,7 @@ This gem is already published on rubygems.org, so you can actually just include 
 If you're writting a Rails application, first add the following line to your Gemfile file:
 
 ```
-gem 'magicbroker', '0.2.0'
+gem 'magicbroker', '0.2.1'
 ```
 
 ### Step 2
