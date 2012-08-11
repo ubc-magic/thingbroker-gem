@@ -20,3 +20,6 @@ Then you can include it in any controller like so:
 require 'magicbroker'
 ```
 
+### Other ways:
+
+If you want to download the latest version of the gem, fork this repository and you can find the packaged gem in the /pkg directory.
