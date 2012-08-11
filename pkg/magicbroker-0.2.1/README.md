@@ -86,3 +86,8 @@ ATTENTION: this is only for developers. You can publish the gem to rubygems.org 
 rake release
 ```
 
+or to be more specific:
+
+```
+gem push pkg/magicbroker-<version>.gem
+```
