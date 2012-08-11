@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.description = "The MAGIC-Broker-2 gem"
   s.email = "roberto@robertocalderon.ca"
   s.extra_rdoc_files = ["README.md", "lib/client/client.rb", "lib/magicbroker.rb"]
-  s.files = ["Manifest", "README.md", "Rakefile", "lib/client/client.rb", "lib/magicbroker.rb", "magicbroker.gemspec"]
+  s.files = ["Manifest", "README.md", "Rakefile", "build.sh", "lib/client/client.rb", "lib/magicbroker.rb", "magicbroker.gemspec"]
   s.homepage = "https://github.com/magic-liam/broker-gem-0.2.0.git"
   s.rdoc_options = ["--line-numbers", "--inline-source", "--title", "Magicbroker", "--main", "README.md"]
   s.require_paths = ["lib"]

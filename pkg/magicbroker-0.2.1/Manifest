@@ -1,5 +1,6 @@
 Manifest
 README.md
 Rakefile
+build.sh
 lib/client/client.rb
 lib/magicbroker.rb
